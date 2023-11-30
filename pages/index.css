@@ -79,7 +79,7 @@
 }
 
 .header__image {
-  position: absolute;
+  position: relative;
   top: 124px;
   right: 5px;
   width: 646px;
