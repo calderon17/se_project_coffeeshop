@@ -13,6 +13,11 @@
   color: #000;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+  animation: 1s ease-in-out;
+}
+
 .nav__links {
   display: flex;
   gap: 20px;
