@@ -56,7 +56,6 @@
           alt="Illustration 'Inside coffe shop'"
           class="header__image"
         />
-        <div class="background"></div>
         <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours:</p>
@@ -106,6 +105,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="guestcount" class="form__label">
@@ -114,6 +114,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="guestcount"
+                  required
                 />
               </label>
               <label for="datetime" class="form__label">
@@ -121,6 +122,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="datetime"
+                  required
                 />
               </label>
               <label for="email" class="form__label">
@@ -129,12 +131,18 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
-            <button class="form__button">Book a table</button>
+            <button type="submit" class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox"
+                required
+              />
               I agree with terms of use
             </label>
           </form>
@@ -239,7 +247,7 @@
             alt="Tripleten logo"
             class="footer__logo"
           />
-          <div class="footer__content footer__content_social">
+          <div class="footer__social">
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
